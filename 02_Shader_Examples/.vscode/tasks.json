@@ -1,0 +1,59 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Cmake",
+            "type": "shell",
+            "command": "cmake",
+            "windows":{
+                "command": "cmake",
+                "args": [
+                    "${workspaceFolder}",
+                    "-G",
+                    "MinGW Makefiles"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/build_${workspaceFolderBasename}"
+            },
+            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":[
+                "KlasorOlustur"
+            ]     
+        },
+        {
+            "label": "KlasorOlustur",
+            "type": "shell",
+            "command": "mkdir",
+            "windows": {
+                "command": "cmd",
+                "args": [
+                    "/C",
+                    "if not exist 'build_${workspaceFolderBasename}' md 'build_${workspaceFolderBasename}' "
+                ]
+
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "label": "Make",
+            "type": "shell",
+            "command":"mingw32-make",
+            "options": {
+                "cwd": "${workspaceFolder}/build_${workspaceFolderBasename}"
+            },
+            "args": [    
+                
+            ]
+        } 
+
+    ]
+}

@@ -1,0 +1,3 @@
+C:/Users/betulakin/OpenGL_Examples/03_Keyboard_Kontrol/build_03_Keyboard_Kontrol/CMakeFiles/03_Keyboard_Kontrol.dir
+C:/Users/betulakin/OpenGL_Examples/03_Keyboard_Kontrol/build_03_Keyboard_Kontrol/CMakeFiles/edit_cache.dir
+C:/Users/betulakin/OpenGL_Examples/03_Keyboard_Kontrol/build_03_Keyboard_Kontrol/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/betulakin/OpenGL_Examples/02_Shader_Examples/build_02_Shader_Examples/CMakeFiles/02_Shader_Examples.dir
+C:/Users/betulakin/OpenGL_Examples/02_Shader_Examples/build_02_Shader_Examples/CMakeFiles/edit_cache.dir
+C:/Users/betulakin/OpenGL_Examples/02_Shader_Examples/build_02_Shader_Examples/CMakeFiles/rebuild_cache.dir
